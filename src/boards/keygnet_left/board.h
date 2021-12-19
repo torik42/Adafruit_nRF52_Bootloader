@@ -22,8 +22,8 @@
  * THE SOFTWARE.
  */
 
-#ifndef _KEYGNET_RIGHT_H
-#define _KEYGNET_RIGHT_H
+#ifndef _KEYGNET_LEFT_H
+#define _KEYGNET_LEFT_H
 
 #define _PINNUM(port, pin)    ((port)*32 + (pin))
 
@@ -31,7 +31,7 @@
 /* LED
  *------------------------------------------------------------------*/
 #define LEDS_NUMBER       1
-#define LED_PRIMARY_PIN   _PINNUM(1, 6) // Yellow
+#define LED_PRIMARY_PIN   _PINNUM(1, 15) // Yellow
 #define LED_STATE_ON      1
 
 /*------------------------------------------------------------------*/
@@ -39,7 +39,7 @@
  *------------------------------------------------------------------*/
 #define BUTTONS_NUMBER    2  // none connected at all
 #define BUTTON_1          _PINNUM(0, 18)  // RESET
-#define BUTTON_2          _PINNUM(0, 31)  // inner_top
+#define BUTTON_2          _PINNUM(1, 2)  // inner_top
 #define BUTTON_PULL       NRF_GPIO_PIN_PULLUP
 
 //--------------------------------------------------------------------+
@@ -56,8 +56,8 @@
 #define USB_DESC_CDC_ONLY_PID  0x615E
 
 #define UF2_PRODUCT_NAME  "Keygnet"
-#define UF2_VOLUME_LABEL  "Keygnet RHS"
-#define UF2_BOARD_ID      "nRF52840-keygnet-right-v1"
+#define UF2_VOLUME_LABEL  "Keygnet LHS"
+#define UF2_BOARD_ID      "nRF52840-keygnet-left-v1"
 #define UF2_INDEX_URL     ""
 
-#endif // _KEYGNET_RIGHT_H
+#endif // _KEYGNET_LEFT_H
