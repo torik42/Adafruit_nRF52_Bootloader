@@ -56,7 +56,7 @@
 #define USB_DESC_CDC_ONLY_PID  0x615E
 
 #define UF2_PRODUCT_NAME  "Keygnet"
-#define UF2_VOLUME_LABEL  "Keygnet right"
+#define UF2_VOLUME_LABEL  "Keygnet_r"
 #define UF2_BOARD_ID      "nRF52840-keygnet-right-v1"
 #define UF2_INDEX_URL     ""
 
